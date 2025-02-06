@@ -324,6 +324,12 @@ const animationTimeline = () => {
     tl.restart()
 
   })
+  // jump to chatReport
+  const chatBtn = document.getElementById("chat")
+  replyBtn.addEventListener("click", () => {
+    window.location.href = "chatReport/index.html";
+
+  })
 }
 
 // Run fetch and animation in sequence
