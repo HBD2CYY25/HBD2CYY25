@@ -326,7 +326,7 @@ const animationTimeline = () => {
   })
   // jump to chatReport
   const chatBtn = document.getElementById("chat")
-  replyBtn.addEventListener("click", () => {
+  chatBtn.addEventListener("click", () => {
     window.location.href = "chatReport/index.html";
 
   })
