@@ -4,7 +4,7 @@ let isPlaying = false
 
 // Import the data to customize and insert them into page
 const fetchData = () => {
-  fetch("HBD2CYY25/HappyBirthday/customize.json")
+  fetch("customize.json")
     .then(data => data.json())
     .then(data => {
       dataArr = Object.keys(data)
@@ -48,7 +48,6 @@ const fetchData = () => {
 
 // Animation Timeline
 const animationTimeline = () => {
-  console.log('Hello, World!');
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0]
   const hbd = document.getElementsByClassName("wish-hbd")[0]
