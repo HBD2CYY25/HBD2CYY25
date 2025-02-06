@@ -4,7 +4,7 @@ let isPlaying = false
 
 // Import the data to customize and insert them into page
 const fetchData = () => {
-  fetch("customize.json")
+  fetch("HBD2CYY25/HappyBirthday/customize.json")
     .then(data => data.json())
     .then(data => {
       dataArr = Object.keys(data)
