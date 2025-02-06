@@ -244,11 +244,6 @@ canvas {
   cursor: pointer;
 }
 
-#chat {
-  z-index: 3;
-  cursor: pointer;
-}
-
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
