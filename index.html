@@ -128,8 +128,16 @@
     </div>
     <div class="nine">
       <p data-node-name="outroText">Okay, now come back and tell me if you liked it.</p>
-      <p id="replay" data-node-name="replayText">Or click, if you want to watch it again.</p>
-      <p id="chat" data-node-name="chatReport">Or you can see the chat report</p>
+      <!-- <p id="replay" data-node-name="replayText">Or click, if you want to watch it again.</p>
+      <p id="chat" data-node-name="chatReport">Or you can see the chat report</p> -->
+      <p id="replay" class="again">
+        <span data-node-name="ifLike">Or click, if you want to </span>
+        <strong data-node-name="replayText">watch it again.</strong>
+      </p>
+      <p id="chat" class="report">
+        <span data-node-name="or">Or you can read</span>
+        <strong data-node-name="chatReport">chat report</strong>
+      </p>
       <p class="last-smile" data-node-name="outroSmiley">:)</p>
       <!-- <a href="chatReport/index.html">聊天记录</a> -->
     </div>

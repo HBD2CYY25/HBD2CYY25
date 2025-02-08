@@ -109,6 +109,18 @@ canvas {
   display: inline-block;
 }
 
+.again strong {
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.report strong {
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
 .five .idea-5 {
   font-size: 3rem;
 }
