@@ -113,12 +113,14 @@ canvas {
   padding: 3px 5px;
   border-radius: 3px;
   display: inline-block;
+  background-color: #81D8CF;
 }
 
 .report strong {
   padding: 3px 5px;
   border-radius: 3px;
   display: inline-block;
+  background-color: #FF9999;
 }
 
 .five .idea-5 {
