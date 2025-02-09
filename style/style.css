@@ -156,6 +156,7 @@ canvas {
   left: 49%;
   /* 等比例扩大图片到2倍 */
   transform: scale(1.1);
+  transform: rotate(25deg);
 }
 
 .baloons img {
