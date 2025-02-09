@@ -329,7 +329,7 @@ const animationTimeline = () => {
   chatBtn.style.cursor = 'pointer';
   chatBtn.addEventListener("click", () => {
     // window.location.href = "chatReport/index.html";
-    // audio.pause()
+    audio.pause()
     window.open('chatReport/index.html');
   })
 }
