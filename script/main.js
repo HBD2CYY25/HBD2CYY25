@@ -243,7 +243,7 @@ const animationTimeline = () => {
       "-=2"
     )
     .from(".hat", 0.5, {
-      x: -200,
+      x: -100,
       y: 350,
       rotation: -180,
       opacity: 0
@@ -329,6 +329,7 @@ const animationTimeline = () => {
   chatBtn.style.cursor = 'pointer';
   chatBtn.addEventListener("click", () => {
     // window.location.href = "chatReport/index.html";
+    audio.pause()
     window.open('chatReport/index.html');
   })
 }
